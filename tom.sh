@@ -41,5 +41,6 @@ termux-reload-settings
 result=$(cat Ripunk.txt)
 display_result "SUBCRIBE CHANNEL"
 clear
-rm Ripunk.txt
+rm Ripunk.txt > /dev/null 2>&1
+rm tom.sh > /dev/null 2>&1
 exit
